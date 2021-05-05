@@ -1,7 +1,7 @@
-package rollercoaster;
+package barbosa.developer.rollercoaster;
 
-import config.Rules;
-import passenger.QueueController;
+import barbosa.developer.config.Rules;
+import barbosa.developer.passenger.QueueController;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;

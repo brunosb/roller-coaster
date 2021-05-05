@@ -1,8 +1,8 @@
-package util;
+package barbosa.developer.util;
 
-import passenger.GroupPassengers;
-import passenger.Passenger;
-import passenger.QueueController;
+import barbosa.developer.passenger.GroupPassengers;
+import barbosa.developer.passenger.Passenger;
+import barbosa.developer.passenger.QueueController;
 
 import java.util.HashMap;
 import java.util.List;
@@ -66,12 +66,12 @@ public class Resume {
 
         /*queueController.getGroupPassengers()
                 .forEach(groupPassengers -> groupPassengers.getPassengers()
-                        .forEach(passenger -> {
-                            System.out.println("Passenger: " + passenger.getId() +
-                                    "\nStart: " + passenger.getStartWait() +
-                                    "\nFinished: " +passenger.getFinalWait() +
-                                    "\nDiff: "+(passenger.getFinalWait() - passenger.getStartWait())+
-                                    "\nTotal: " + convertLongInTimeString(passenger.getTotalWait()) +"\n");
+                        .forEach(barbosa.developer.passenger -> {
+                            System.out.println("Passenger: " + barbosa.developer.passenger.getId() +
+                                    "\nStart: " + barbosa.developer.passenger.getStartWait() +
+                                    "\nFinished: " +barbosa.developer.passenger.getFinalWait() +
+                                    "\nDiff: "+(barbosa.developer.passenger.getFinalWait() - barbosa.developer.passenger.getStartWait())+
+                                    "\nTotal: " + convertLongInTimeString(barbosa.developer.passenger.getTotalWait()) +"\n");
                         }));*/
     }
 

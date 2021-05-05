@@ -1,6 +1,6 @@
-package passenger;
+package barbosa.developer.passenger;
 
-import config.Rules;
+import barbosa.developer.config.Rules;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

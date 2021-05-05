@@ -1,4 +1,4 @@
-package config;
+package barbosa.developer.config;
 
 public enum Rules {
 

@@ -1,4 +1,4 @@
-package passenger;
+package barbosa.developer.passenger;
 
 import java.util.LinkedList;
 import java.util.List;

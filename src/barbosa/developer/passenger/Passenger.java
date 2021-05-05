@@ -1,4 +1,4 @@
-package passenger;
+package barbosa.developer.passenger;
 
 public class Passenger {
 

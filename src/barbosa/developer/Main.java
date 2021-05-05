@@ -1,9 +1,11 @@
-import config.Rules;
-import passenger.GroupPassengers;
-import passenger.QueueController;
-import rollercoaster.RollerCoasterSeveralCars;
-import rollercoaster.RollerCoasterSingleCar;
-import util.Resume;
+package barbosa.developer;
+
+import barbosa.developer.config.Rules;
+import barbosa.developer.passenger.GroupPassengers;
+import barbosa.developer.passenger.QueueController;
+import barbosa.developer.rollercoaster.RollerCoasterSeveralCars;
+import barbosa.developer.rollercoaster.RollerCoasterSingleCar;
+import barbosa.developer.util.Resume;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
